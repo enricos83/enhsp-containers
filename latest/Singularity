@@ -12,7 +12,7 @@ export PATH
 apt install -y git
 git clone https://gitlab.com/enricos83/ENHSP-Public.git
 cd /ENHSP-Public
-git checkout enhsp20-0.9.0
+git checkout enhsp-20
 ./compile
 mv enhsp-dist ../
 cd ..
