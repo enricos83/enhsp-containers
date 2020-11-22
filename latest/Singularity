@@ -22,6 +22,7 @@ rm -r /jdk-14.0.1
 PATH=$PATH:/java-runtime/bin
 
 git clone git@github.com:enricos83/downward.git
+git checkout only-grounding
 cp -r downward/translate .
 rm -r downward
 mkdir downward
