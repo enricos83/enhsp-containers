@@ -24,7 +24,7 @@ PATH=$PATH:/java-runtime/bin
 git clone git@github.com:enricos83/downward.git
 git checkout only-grounding
 cp -r downward/translate .
-rm -r downward
+rm -fr downward
 mkdir downward
 mv translate downward/
 sudo apt install python3.8-minimal
