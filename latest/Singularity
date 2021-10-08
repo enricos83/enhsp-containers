@@ -41,7 +41,7 @@ export PATH
 /java-runtime/bin/java -jar /enhsp-dist/enhsp.jar "$@"
 
 %help
-This is ENHSP-20 planner container.
+This is the ENHSP-20 planner container.
 
 %labels
 Author Enrico Scala enricos83@gmail.com
